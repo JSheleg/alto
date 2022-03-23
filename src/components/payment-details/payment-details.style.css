@@ -1,0 +1,78 @@
+.estimates{
+    margin-bottom: 40px;
+}
+
+.fareCol{
+    margin: 0 5px;
+}
+
+.fareCol:before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 70%;
+    border: 1px solid rgb(234, 230, 219);
+}
+
+.passCol:before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 70%;
+    border: 1px solid rgb(234, 230, 219);
+}
+
+.payCol:before{
+    content: '';
+    display: block;
+    position: relative;
+    width: 50%;
+    border: 1px solid rgb(234, 230, 219);
+}
+
+.streetline{
+    font-size: 15px;
+    line-height: 0px;
+}
+
+.city:after{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    content: '';
+    display: block;
+    position: relative;
+    width: 20%;
+    border: 1px solid rgb(234, 230, 219);
+}
+
+.city{
+    font-size: 15px;
+}
+
+.dropOffName{
+    line-height: 10px;
+}
+
+.terminal{
+    line-height: 0px;
+}
+
+.notes{
+    line-height: 20px;
+    width: 50%;
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    
+}
+   
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    
+}
+   
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+
+}

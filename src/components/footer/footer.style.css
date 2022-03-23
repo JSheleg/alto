@@ -1,0 +1,22 @@
+.footer {
+    border-top:  2px solid rgb(234, 230, 219) ;
+    /* position:fixed; */
+    /* bottom: 0; */
+    text-align: center;
+}
+
+.destination{
+    margin-top: 20px;
+    margin-bottom:-20px;
+    font-weight: bold;
+    
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+ 
+
+ 
+  
+ 
+}

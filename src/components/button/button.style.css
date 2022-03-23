@@ -1,0 +1,49 @@
+.buttonContainer{
+    width: 100%;
+}
+
+.button{
+    width: 80%;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    background-color: rgb(247, 243, 239);
+    border: 2px solid rgb(221, 218, 214);
+    color:rgb(221, 218, 214);
+    height: 50px;
+    text-transform: uppercase;
+    justify-content: center;
+    /* background-color: rgb(172, 130, 109); */
+    /* border: 2px solid rgb(108, 104, 91) */
+}
+
+.brown{
+    background-color: rgb(172, 130, 109); 
+    border: 2px solid rgb(108, 104, 91);
+    
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    
+}
+   
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    
+}
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+    
+.buttonContainer{
+    margin-left: 60px;
+}
+
+}
+
+
+   
+
+  

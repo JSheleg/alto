@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Optima LT Std';
+    src: url('../../assets/fonts/Linotype\ -\ OptimaLTStd.otf');
+}
+
+.company{
+    font-family:"Optima LT Std";
+    font-size: 36px;
+    letter-spacing: 5px;
+    padding-top:20px;
+}
+
+.header{
+    /* position:absolute; */
+    text-align: center;
+    width: 100%;
+    z-index: 50;
+    
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+ .company{
+    font-size: 25px;
+ }
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    
+}
+
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+
+}
+    
+

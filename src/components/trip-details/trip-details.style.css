@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'PxGrotesk';
+    src: url('../../assets/fonts/PxGrotesk-Light.otf');
+}
+@font-face {
+    font-family: 'Optima LT Std';
+    src: url('../../assets/fonts/Linotype\ -\ OptimaLTStd.otf');
+}
+
+.tripDetailOverview{
+    justify-content: center;
+    margin: 20px 20px;
+}
+
+.trip{
+    letter-spacing: -1px;
+    font-family:"Optima LT Std";
+    font-size: 36px;
+    padding-top:20px;
+    
+}
+
+/* .trip{
+
+    /* font-size: 15px;
+    text-transform: uppercase; */
+    /* color: rgb(172, 130, 109); */
+    /* font-weight: bold; */
+/* } */ 
+
+.time{
+    font-size: 80px;
+    margin-right: 15px;
+    font-family: "PxGrotesk";
+    color: rgb(63 56 37);
+}
+
+.timeRow{
+    margin-top: 40px;
+    
+}
+
+.destinationSpan{
+    margin-left:4px;
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    
+}
+   
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    .trip{
+        margin-left:10px;
+        font-size: 40px;
+    }
+    .time{
+        font-size:84px;
+    }
+    .arrivalRow{
+        margin-left: 3px;
+    }
+}
+   
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+    
+
+
+}
+       

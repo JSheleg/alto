@@ -1,0 +1,38 @@
+.map{
+    justify-content: center;
+    
+}
+.mapOverview{
+    z-index: 5;
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+.icon{
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+    justify-content: end;
+
+}
+
+.vibes{
+    border-top:  2px solid rgb(234, 230, 219);
+   
+}
+
+.vibesCol{
+    margin-top: 10px;
+    margin-bottom:50px;
+}
+
+.vibeName{
+    font-weight:bold
+}
+
+
+
+/* .vibes{
+    text-align: center;
+} */
