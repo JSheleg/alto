@@ -8,13 +8,16 @@ const YourDriverPage = ({mission}) => {
 
     return(
         <>
-        <Container>
+        <Container className="driverProfile">
             <Image src={driver} alt={image} className="driverimg"/>
-            <Row className="driverName">               
-                <h6>YOUR DRIVER</h6>
-                <br/>
-                <h2>{name}</h2>
+            <Row >               
+                <h6 className="driverTitle">YOUR DRIVER</h6>
             </Row>
+            <Row>
+                <h2 className="driverName">{name}</h2>
+            </Row>
+                
+            
             <Row className="bio">
                 <p>{bio}</p>
             </Row>

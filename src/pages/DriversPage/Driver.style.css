@@ -1,21 +1,69 @@
-.driverimg{
-    width: 100%;   
-    /* margin: -10px 0px 0px -180px; */
-    
-  
+@font-face {
+    font-family: 'PxGrotesk';
+    src: url('../../assets/fonts/PxGrotesk-Light.otf');
+}
+@font-face {
+    font-family: 'Optima LT Std';
+    src: url('../../assets/fonts/Linotype\ -\ OptimaLTStd.otf');
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+
+.driverimg{
+    width: 100%;
+    height: 300px; 
+    object-fit:none;
+    object-position: 50% 40%;
+    
+}
+
+.driverTitle{
+    color: rgb(172, 130, 109);
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-size: 15px;
+    font-family: "Optima LT Std";
+    font-weight: bold;
+}
+
+.driverName{
+    font-size: 90px;
+    margin-left: 50px;
+    font-family: "PxGrotesk";
+    margin-bottom: -8px;
+}
+
+.driverName::after{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    content: '';
+    display: block;
+    position: relative;
+    width: 90%;
+    border: 1px solid rgb(234, 230, 219);
+}
+
+.bio{
+    width: 90%;
+    margin: 0 auto;
+    font-size:21px;
+    line-height: 20px;
+    font-family: "Optima LT Std";
+    margin-bottom: 40px;
+}
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER
 @media screen and (max-width: 575px){
     
-}
+} */
    
-/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+/* MEDIA QUERY FOR TABLETS AND SMALLER
 @media screen and (max-width: 768px){
+
+
     
-}
+} */
    
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER
 @media screen and (max-width: 980px){
 
-}
+} */
