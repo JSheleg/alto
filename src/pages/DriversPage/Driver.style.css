@@ -24,6 +24,7 @@
     font-size: 15px;
     font-family: "Optima LT Std";
     font-weight: bold;
+
 }
 
 .driverName{
@@ -56,14 +57,28 @@
     
 } */
    
-/* MEDIA QUERY FOR TABLETS AND SMALLER
+/* MEDIA QUERY FOR TABLETS AND SMALLER */
 @media screen and (max-width: 768px){
-
+    .driverimg{
+        width: 100%;
+        height: 300px; 
+        object-fit:none;
+        object-position: 50% 5%;
+        
+    }
 
     
-} */
+}
    
-/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px){
+    .driverimg{
+        width: 100%;
+        height: 450px; 
+        object-fit:none;
+        object-position: 50% 0%;
+        
+    }
+    
 
-} */
+}

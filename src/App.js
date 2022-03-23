@@ -28,9 +28,9 @@ function App() {
       <Header/>
         
         {/* <YourTripPage mission={tripData}/>  */}
-        <YourDriverPage mission={driver}/>
-        {/* <YourVehiclePage mission = {vehicle}/>
-        <YourControlsPage mission={tripData}/> */}
+        {/* <YourDriverPage mission={driver}/> */}
+        <YourVehiclePage mission = {vehicle}/>
+        {/* <YourControlsPage mission={tripData}/> */}
 
         
         
