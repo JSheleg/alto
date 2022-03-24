@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Image} from 'react-bootstrap';
+import {Container, Row, Image} from 'react-bootstrap';
 import driver from "../../assets/images/Driver_photo.png";
 import Button from "../../components/button/button.component";
 import "./Driver.style.css";
@@ -21,7 +21,10 @@ const YourDriverPage = ({mission}) => {
             <Row className="bio">
                 <p>{bio}</p>
             </Row>
-            <Button mission={"Contact Driver"}/>
+            <Row>
+                <Button mission={"Contact Driver"}/>
+            </Row>
+            
         </Container>        
         </>
 

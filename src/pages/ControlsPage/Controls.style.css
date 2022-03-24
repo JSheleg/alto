@@ -4,13 +4,13 @@
 }
 .mapOverview{
     z-index: 5;
-    width: 50%;
+    width: 80%;
     margin-left:auto;
     margin-right: auto;
     
 }
 .icon{
-    width: 50%;
+    width: 70%;
     margin-left:auto;
     margin-right: auto;
     justify-content: end;
@@ -31,8 +31,25 @@
     font-weight:bold
 }
 
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    
+}
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
 
 
-/* .vibes{
-    text-align: center;
-} */
+    
+}
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+
+}
+
+
+
+
+
+
+
+

@@ -24,26 +24,31 @@
     
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px){
-    
-}
-   
-/*MEDIA QUERY FOR TABLETS AND SMALLER*/
-@media screen and (max-width: 768px){
-    
-}
-
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px){
     
-.buttonContainer{
-    margin-left: 60px;
-}
-
-}
-
-
-   
 
   
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+
+    .buttonContainer{
+        margin-top: 50px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+
+    .buttonContainer{
+        width: 100%;
+    }
+    
+}
+   
+
+

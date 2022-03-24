@@ -9,7 +9,7 @@ const Footer = ({mission}) => {
     const destination =  mission[0].trip.dropoff_location.name;
     const modDestination = (destination.split('-'))[0];
     const eta = mission[0].trip.estimated_arrival;
-    const modEta = ((eta.split(" "))[4]).slice(0,5);
+    const modEta = ((eta.split(" "))[4]).slice(0,4);
    
     
     
@@ -18,22 +18,22 @@ const Footer = ({mission}) => {
         <Container fluid className="footer">
             <Row >
                 <Col className="my-auto">
-                    <Image src = {profile}/>
+                    <Image className="img" src = {profile}/>
                 </Col>
-                <Col>
+                <Col xs={6}>
                     <Row>
-                        <Col className="destination"> 
+                        <Col  className="destination"> 
                             <p>{modDestination}</p> 
                         </Col>
                     </Row>
                     <Row>
                         <Col className="eta">
-                            <p>ETA {modEta}  PM</p>
+                            <p>ETA: {modEta}  PM</p>
                         </Col>
                     </Row>
                 </Col>
                 <Col className="my-auto">
-                    <Image src = {vibes}/>
+                    <Image className="img" src = {vibes}/>
                 </Col>
             </Row>
         </Container>

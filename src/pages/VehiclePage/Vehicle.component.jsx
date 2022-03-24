@@ -30,7 +30,10 @@ const YourVehiclePage = ({mission}) => {
                     <h5 className="color">{color}</h5>
                 </Col>
             </Row>
-            <Button mission={"identify vehicle"}/>
+            <Row>
+                <Button mission={"identify vehicle"}/>
+            </Row>
+            
 
 
 

@@ -4,7 +4,7 @@ const Button = ({className, mission}) => (
     
 <div className='buttonContainer'>
     <button className={`button ${className}`}>
-        <h3>{mission}</h3>
+        <h3 className={className}>{mission}</h3>
     </button>
 
 </div>

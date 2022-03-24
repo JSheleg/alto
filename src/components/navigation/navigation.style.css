@@ -24,3 +24,11 @@ a{
     right:0px;
     margin-top: 40px;
 }
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+
+    .circle{
+        margin-right: 20px;
+    }
+}

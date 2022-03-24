@@ -1,5 +1,5 @@
 import React from "react";
-import {Container, Row, Col, Image } from 'react-bootstrap'
+import {Container, Row } from 'react-bootstrap'
 import TripDetails from "../../components/trip-details/trip-details.component";
 import PaymentDetails from "../../components/payment-details/payment-details.component";
 import Button from "../../components/button/button.component";
@@ -10,9 +10,22 @@ const YourTripPage = ({mission}) => {
 
     return(
         <div className="tripPage">
-        <TripDetails mission={destination}/>
+
+            <Container>
+
+                <Row>
+                <TripDetails mission={destination}/>
+                </Row>
+            </Container>
+        
         <PaymentDetails mission={destination}/>
-        <Button mission={"cancel trip"}/>
+
+        <Container>
+            <Row>
+                <Button mission={"cancel trip"}/>
+            </Row>
+        </Container>
+        
         </div>
         
     )

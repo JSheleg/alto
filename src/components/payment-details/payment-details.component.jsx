@@ -44,7 +44,7 @@ const PaymentDetails = ({mission}) => {
             </Row>
             <Row>
                 <Col>
-                <h6> {dropOffCity}, {dropOffState} {dropOffZipcode}</h6>
+                <h6 className='cityStateZip'> {dropOffCity}, {dropOffState} {dropOffZipcode}</h6>
                 </Col>
             </Row>
             <Row>

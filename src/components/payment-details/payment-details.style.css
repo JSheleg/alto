@@ -14,6 +14,10 @@
     border: 1px solid rgb(234, 230, 219);
 }
 
+.fare{
+    font-weight: bold;
+}
+
 .passCol:before{
     content: '';
     display: block;
@@ -22,12 +26,20 @@
     border: 1px solid rgb(234, 230, 219);
 }
 
+.passengers{
+    font-weight: bold;
+}
+
 .payCol:before{
     content: '';
     display: block;
     position: relative;
     width: 50%;
     border: 1px solid rgb(234, 230, 219);
+}
+
+.payment{
+    font-weight: bold;
 }
 
 .streetline{
@@ -62,17 +74,143 @@
     width: 50%;
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px){
-    
+/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
+@media screen and (max-width: 980px){
+    .fareCol{
+        font-size: 20px;
+    }
+
+    .fareCol:before{
+        width: 100%;
+    }
+
+    .passCol{
+        font-size: 20px;
+    }
+
+    .passCol:before{
+        width: 100%;
+    }
+
+    .payCol{
+        font-size: 20px;
+    }
+
+    .notes{
+        font-size: 22px;
+        width: 50%;
+    }
+
+    .streetline{
+        font-size: 22px;
+        line-height:4px;
+    }
+
+    .city{
+        font-size: 22px;
+    }
+
+    .dropoffName{
+        font-size: 22px;
+    }
+
+    .terminal{
+        font-size: 22px;
+    }
+
+    .cityStateZip{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
 }
+
    
 /*MEDIA QUERY FOR TABLETS AND SMALLER*/
 @media screen and (max-width: 768px){
+    .fareCol{
+        font-size: 20px;
+    }
+
+    .fareCol:before{
+        width: 100%;
+    }
+
+    .passCol{
+        font-size: 20px;
+    }
+
+    .passCol:before{
+        width: 100%;
+    }
+
+    .payCol{
+        font-size: 20px;
+    }
+
+    .notes{
+        font-size: 22px;
+        width: 50%;
+    }
+
+    .streetline{
+        font-size: 22px;
+        line-height:4px;
+    }
+
+    .city{
+        font-size: 22px;
+    }
+
+    .dropoffName{
+        font-size: 22px;
+    }
+
+    .terminal{
+        font-size: 22px;
+    }
+
+    .cityStateZip{
+        font-size: 22px;
+        margin-bottom: 30px;
+    }
     
 }
-   
-/*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
-@media screen and (max-width: 980px){
 
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+
+    .fareCol{
+        font-size: 12.5px;
+    }
+
+    .fareCol:before{
+        width: 100%;
+    }
+
+    .passCol{
+        font-size: 12.5px;
+    }
+
+    .passCol:before{
+        width: 100%;
+    }
+
+    .payCol{
+        font-size: 12.5px;
+    }
+
+    .payCol:before{
+        width: 100%;
+    }
+
+    .city:after{
+        width: 30%;
+    }
+
+    .notes{
+        width: 70%;
+    }
+    
 }
+
+   

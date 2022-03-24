@@ -20,17 +20,10 @@
     
 }
 
-/* .trip{
-
-    /* font-size: 15px;
-    text-transform: uppercase; */
-    /* color: rgb(172, 130, 109); */
-    /* font-weight: bold; */
-/* } */ 
 
 .time{
     font-size: 80px;
-    margin-right: 15px;
+    /* margin-right: 15px; */
     font-family: "PxGrotesk";
     color: rgb(63 56 37);
 }
@@ -44,29 +37,45 @@
     margin-left:4px;
 }
 
-/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
-@media screen and (max-width: 575px){
-    
-}
+
    
-/*MEDIA QUERY FOR TABLETS AND SMALLER*/
-@media screen and (max-width: 768px){
-    .trip{
-        margin-left:10px;
-        font-size: 40px;
-    }
-    .time{
-        font-size:84px;
-    }
-    .arrivalRow{
-        margin-left: 3px;
-    }
-}
+
    
 /*MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER*/
 @media screen and (max-width: 980px){
     
+    .trip{
+        font-size: 50px;
+    }
 
+    .time{
+        font-size: 90px;
+    }
 
+    .dayTime{
+        font-size: 40px;
+    }
+
+    .arrivalRow{
+        font-size: 25px;
+    }
+
+}
+
+/*MEDIA QUERY FOR TABLETS AND SMALLER*/
+@media screen and (max-width: 768px){
+    .arrivalRow{
+        font-size: 20px;
+    }
+    
+}
+
+/*MEDIA QUERY FOR MOBILE PHONES AND SMALLER*/
+@media screen and (max-width: 575px){
+    .arrivalRow{
+        font-size: 15px;
+    }
+
+    
 }
        
