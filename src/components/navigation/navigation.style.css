@@ -1,0 +1,26 @@
+.circle{
+    height: 10px;
+    width: 10px;
+    background-color: rgb(217, 216, 203);
+    border-radius: 50%;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+.active{
+    background-color: rgb(30, 29, 30);
+    
+}
+
+a{
+    margin: -5px;
+}
+
+.nav{
+    position: fixed;
+    justify-content: right;
+    flex-direction: column;
+    top: 0px;
+    right:0px;
+    margin-top: 40px;
+}

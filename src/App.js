@@ -2,7 +2,9 @@
 import './App.css';
 import mission from "./assets/data/mission.json";
 import { useState} from 'react';
-import { Link , BrowserRouter,Route, Routes, Router} from "react-router-dom";
+
+import { Routes, Route } from "react-router-dom"
+import Navigation from './components/navigation/navigation.component';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import YourTripPage from './pages/TripPage/TripPage.component';
@@ -14,28 +16,23 @@ import YourVehiclePage from './pages/VehiclePage/Vehicle.component';
 function App() {
 
   const [tripData, setTripData] = useState([mission]);
+  // const [state, setState] = useState([]);
   const driver = tripData[0].driver;
   const vehicle = tripData[0].vehicle;
-  
-  
-  
-
-
-  
+ 
   return (
     <div className="App">
-      
-      <Header/>
-        
-        {/* <YourTripPage mission={tripData}/>  */}
-        {/* <YourDriverPage mission={driver}/> */}
-        <YourVehiclePage mission = {vehicle}/>
-        {/* <YourControlsPage mission={tripData}/> */}
 
-        
-        
+      <Header/>
+      <Navigation/>
+      <Routes>
+        <Route path="/" element={<YourTripPage mission={tripData}/>} />
+        <Route path="driver" element={<YourDriverPage mission={driver}/>}/>
+        <Route path="vehicle" element={<YourVehiclePage mission = {vehicle}/>}/>
+        <Route path="controls" element={<YourControlsPage mission={tripData}/>}/>
+      </Routes>
+      <Footer mission = {tripData}/>  
       
-      <Footer mission = {tripData}/>
     </div>
   );
 }
